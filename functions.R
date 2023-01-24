@@ -12,7 +12,6 @@ get_means <- function(num_runs, num_points, num_dims, obj_fn){
   dimensions = get_dimensions(obj_fn, num_dims)
   
   fn_calls_count <- 0
-  # trace(fn_wrapper, tracer = function() fn_calls_count <<- fn_calls_count + 1, print=FALSE)
   ms_mean <- mean(replicate(ms_num_runs, MS(dimensions, num_points, fn_with_counter)))
   budget <- fn_calls_count %/% ms_num_runs - num_points
   # print(budget)
@@ -28,15 +27,4 @@ get_dimensions <- function(f, num_dims){
   lower_bounds = attr(f,"par.set")$pars$x$lower
   upper_bounds = attr(f,"par.set")$pars$x$upper
   array(c(lower_bounds, upper_bounds), c(num_dims,2))
-}
-
-
-# For testing
-
-f <- function(x) {
-  sum(x)
-}
-
-g <- function(x) {
-  sd(x)+min(abs(50-x[1]), abs(10-x[2]))
 }
