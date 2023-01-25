@@ -21,7 +21,7 @@ get_means <- function(num_runs, num_points, num_dims, obj_fn, name_fn){
   dev.off()
   ms_mean <- mean(ms)
   ms_sd <- sd(ms)
-  ms_confidence <- c(ms_mean - qnorm(.975, sd=ms_sd)*ms_sd/sqrt(ms_num_runs), ms_mean + qnorm(.975, sd=ms_sd)*ms_sd/sqrt(ms_num_runs))
+  ms_confidence <- c(ms_mean - qnorm(.975)*ms_sd/sqrt(ms_num_runs), ms_mean + qnorm(.975)*ms_sd/sqrt(ms_num_runs))
   budget <- fn_calls_count %/% ms_num_runs - num_points
   # print(budget)
 
