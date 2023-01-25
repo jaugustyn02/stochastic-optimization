@@ -12,7 +12,7 @@ cat("runs:", num_runs, "\npoints:", num_points, "\n\n")
 cat("Rastringin funtion:\n\n")
 for (num_dims in num_dims_ls){
   rastrigin_fn <- makeRastriginFunction(num_dims)
-  result <- get_means(num_runs, num_points, num_dims, rastrigin_fn)
+  result <- get_means(num_runs, num_points, num_dims, rastrigin_fn, "Rastirgin")
   cat("dimensions:", num_dims, "\n")
   cat("ms_mean:", result$ms_mean, "\n")
   cat("ms_sd:", result$ms_sd, "\n")
@@ -28,7 +28,7 @@ for (num_dims in num_dims_ls){
 cat("Schwefel funtion:\n\n")
 for (num_dims in num_dims_ls){
   schwefel_fn <- makeSchwefelFunction(num_dims)
-  result <- get_means(num_runs, num_points, num_dims, schwefel_fn)
+  result <- get_means(num_runs, num_points, num_dims, schwefel_fn, "Schwefel")
   cat("dimensions:", num_dims, "\n")
   cat("ms_mean:", result$ms_mean, "\n")
   cat("ms_sd:", result$ms_sd, "\n")
