@@ -1,6 +1,13 @@
-# stochastic_optimization
-Statystyka - projekt zaliczeniowy
+# Projekt zaliczeniowy - Algorytmy minimalizacji stochastycznej
+Projekt polega na prostym opracowaniu statystycznym wyników porównania działania wybranych algorytmów minimalizacji stochastycznej.
 
+Do porównania wybraliśmy poniższe algorytmy:
+- **Poszukiwanie przypadkowe (Pure Random Search, PRS)**
+- **Metoda wielokrotnego startu (multi-start, MS)**
+
+oraz następujące funkcję do zminimalizowania:
+- Funkcja Rastrigina
+- Funkcja Schwefela
 ```
 runs: 50 
 points: 100 
