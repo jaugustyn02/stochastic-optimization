@@ -20,8 +20,8 @@ ms_mean: 0.437782
 ms_sd: 0.4988989
 ms_confidence: 0.2994968 0.5760672
 ```
-![My Image](histograms\Rastirgin_2_ms.png)
-
+![My Image](histograms/Rastirgin_10_ms.png)
+<img src="histograms/Rastirgin_10_ms.png" alt="Alt text" title="Optional title">
 prs_mean: 5.617243
 prs_sd: 2.825417
 prs_confidence: 5.348911 5.885576
