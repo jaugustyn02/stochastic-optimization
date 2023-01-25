@@ -14,8 +14,9 @@ points: 100
 
 Rastringin funtion:
 
+
+dimensions: 2:
 ```
-dimensions: 2 
 ms_mean: 0.437782
 ms_sd: 0.4988989
 ms_confidence: 0.2994968 0.5760672
@@ -23,10 +24,16 @@ ms_confidence: 0.2994968 0.5760672
 ![My Image](histograms/Rastirgin_2_ms.png)
 ![My Image](boxplot/Rastirgin_2_ms.png)
 
+```
 prs_mean: 5.617243
 prs_sd: 2.825417
 prs_confidence: 5.348911 5.885576
+```
+![My Image](histograms/Rastirgin_2_prs.png)
+![My Image](boxplot/Rastirgin_2_prs.png)
+```
 difference: 5.179461
+```
 
 dimensions: 10 
 ms_mean: 23.1825
