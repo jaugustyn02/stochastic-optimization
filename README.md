@@ -14,22 +14,15 @@ points: 100
 
 Rastringin funtion:
 
-<<<<<<< HEAD
-[1] 6724 - budget
-[1] 3362 - prs_num_runs
-ms_mean: 0.3382861
-ms_sd: 0.4761059
-ms_confidence: 0.2754556 0.4011165
-prs_mean: 5.556718
-prs_sd: 2.826253
-prs_confidence: 5.287752 5.825685
-difference: 5.218432
-=======
+
 dimensions: 2 
-ms_mean: 0.3780844 
-prs_mean: 5.494307 
-difference: 5.116223 
->>>>>>> a1db55c50c9d5c46ffdf6af197fd7b67e6493313
+ms_mean: 0.437782
+ms_sd: 0.4988989
+ms_confidence: 0.2994968 0.5760672
+prs_mean: 5.617243
+prs_sd: 2.825417
+prs_confidence: 5.348911 5.885576
+difference: 5.179461
 
 dimensions: 10 
 ms_mean: 23.1825
@@ -70,7 +63,6 @@ prs_confidence: -2564.191 -490.4085
 difference: 1689.053 
 
 dimensions: 20 
-<<<<<<< HEAD
 ms_mean: -5869.074
 ms_sd: 227.7499
 ms_confidence: -20246.45 8508.301
@@ -78,9 +70,4 @@ prs_mean: -2167.164
 prs_sd: 369.795
 prs_confidence: -3711.375 -622.9529
 difference: 3701.91
-=======
-ms_mean: -5931.766 
-prs_mean: -2164.188 
-difference: 3767.578
-```
->>>>>>> a1db55c50c9d5c46ffdf6af197fd7b67e6493313
+
