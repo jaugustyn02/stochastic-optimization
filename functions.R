@@ -37,7 +37,7 @@ get_means <- function(num_runs, num_points, num_dims, obj_fn, name_fn){
   dev.off()
   prs_mean <- mean(prs)
   prs_sd <- sd(prs)
-  prs_confidence <- c(prs_mean - qnorm(0.975,sd=prs_sd)*prs_sd/sqrt(prs_num_runs), prs_mean + qnorm(0.975,sd=prs_sd)*prs_sd/sqrt(prs_num_runs))
+  prs_confidence <- c(prs_mean - qnorm(0.975)*prs_sd/sqrt(prs_num_runs), prs_mean + qnorm(0.975)*prs_sd/sqrt(prs_num_runs))
   return(list(ms_mean = ms_mean, prs_mean = prs_mean, ms_sd=ms_sd, prs_sd=prs_sd,
   ms_confidence=ms_confidence, prs_confidence=prs_confidence))
 }

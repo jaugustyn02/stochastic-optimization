@@ -17,116 +17,116 @@ Rastringin funtion:
 
 dimensions: 2:
 ```
-ms_mean: 0.437782
-ms_sd: 0.4988989
-ms_confidence: 0.2994968 0.5760672
+ms_mean: 0.3581853
+ms_sd: 0.482429
+ms_confidence: 0.2244652 0.4919053
 ```
 ![My Image](histograms/Rastirgin_2_ms.png)
 ![My Image](boxplot/Rastirgin_2_ms.png)
 
 ```
-prs_mean: 5.617243
-prs_sd: 2.825417
-prs_confidence: 5.348911 5.885576
+prs_mean: 5.517673
+prs_sd: 2.774727
+prs_confidence: 5.424103 5.611243
 ```
 ![My Image](histograms/Rastirgin_2_prs.png)
 ![My Image](boxplot/Rastirgin_2_prs.png)
 ```
-difference: 5.179461
+difference: 5.159488
 ```
 
 dimensions: 10 
 
 ```
-ms_mean: 23.1825
-ms_sd: 5.483774
-ms_confidence: 14.84718 31.51782
+ms_mean: 22.42633
+ms_sd: 5.732205
+ms_confidence: 20.83747 24.01519
 ```
 ![My Image](histograms/Rastirgin_10_ms.png)
 ![My Image](boxplot/Rastirgin_10_ms.png)
 ```
-prs_mean: 107.0609
-prs_sd: 12.44911
-prs_confidence: 104.8266 109.2953
+prs_mean: 107.0787
+prs_sd: 12.35098
+prs_confidence: 106.901 107.2565
 ```
 ![My Image](histograms/Rastirgin_10_prs.png)
 ![My Image](boxplot/Rastirgin_10_prs.png)
 ```
-difference: 83.87843
+difference: 84.65242
 ```
 dimensions: 20
 
 ```
-ms_mean: 71.199
-ms_sd: 10.42578
-ms_confidence: 41.07034 101.3277
+ms_mean: 68.11467
+ms_sd: 10.74648
+ms_confidence: 65.13595 71.09338
 ```
 ![My Image](histograms/Rastirgin_20_ms.png)
 ![My Image](boxplot/Rastirgin_20_ms.png)
 ```
-prs_mean: 258.3492
-prs_sd: 18.44131
-prs_confidence: 254.9253 261.773
+prs_mean: 258.4285
+prs_sd: 18.22583
+prs_confidence: 258.245 258.612
 ```
 ![My Image](histograms/Rastirgin_20_prs.png)
 ![My Image](boxplot/Rastirgin_20_prs.png)
 ```
-difference: 187.1502
+difference: 190.3138
 ```
 Schwefel funtion:
 
 dimensions: 2 
 ```
-ms_mean: -833.2282
-ms_sd: 23.44471
-ms_confidence: -985.5819 -680.8746
+ms_mean: -837.9658
+ms_sd: 2.564049e-11
+ms_confidence: -837.9658 -837.9658
 ```
 ![My Image](histograms/Schwefel_2_ms.png)
 ![My Image](boxplot/Schwefel_2_ms.png)
 ```
-prs_mean: -664.419
-prs_sd: 88.59095
-prs_confidence: -966.7932 -362.0449
+prs_mean: -666.7806
+prs_sd: 92.15418
+prs_confidence: -670.3414 -663.2199
 ```
 ![My Image](histograms/Schwefel_2_prs.png)
 ![My Image](boxplot/Schwefel_2_prs.png)
 ```
-difference: 168.8092
+difference: 171.1851
 ```
 
 dimensions: 10
 ```
-ms_mean: -3216.353
-ms_sd: 151.0336
-ms_confidence: -9539.163 3106.457
+ms_mean: -3250.155
+ms_sd: 121.6811
+ms_confidence: -3283.883 -3216.427
 ```
 ![My Image](histograms/Schwefel_10_ms.png)
 ![My Image](boxplot/Schwefel_10_ms.png)
 ```
-prs_mean: -1527.3
-prs_sd: 253.0647
-prs_confidence: -2564.191 -490.4085
+prs_mean: -1524.522
+prs_sd: 253.0961
+prs_confidence: -1528.622 -1520.423
 ```
 ![My Image](histograms/Schwefel_10_prs.png)
 ![My Image](boxplot/Schwefel_10_prs.png)
 ```
-difference: 1689.053 
+difference: 1725.633
 ```
 dimensions: 20 
 ```
-ms_mean: -5869.074
-ms_sd: 227.7499
-ms_confidence: -20246.45 8508.301
+ms_mean: -5936.533
+ms_sd: 263.9994
+ms_confidence: -6009.708 -5863.357
 ```
 ![My Image](histograms/Schwefel_20_ms.png)
 ![My Image](boxplot/Schwefel_20_ms.png)
 ```
-prs_mean: -2167.164
-prs_sd: 369.795
-prs_confidence: -3711.375 -622.9529
+prs_mean: -2165.64
+prs_sd: 364.192
+prs_confidence: -2169.762 -2161.518
 ```
 ![My Image](histograms/Schwefel_20_prs.png)
 ![My Image](boxplot/Schwefel_20_prs.png)
 ```
-difference: 3701.91
+difference: 3770.893
 ```
