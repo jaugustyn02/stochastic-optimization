@@ -8,17 +8,20 @@ Do porównania wybraliśmy poniższe algorytmy:
 oraz następujące funkcję do zminimalizowania:
 - Funkcja Rastrigina
 - Funkcja Schwefela
-```
+
 runs: 50 
 points: 100 
 
 Rastringin funtion:
 
-
+```
 dimensions: 2 
 ms_mean: 0.437782
 ms_sd: 0.4988989
 ms_confidence: 0.2994968 0.5760672
+```
+![My Image](histograms\Rastirgin_2_ms.png)
+
 prs_mean: 5.617243
 prs_sd: 2.825417
 prs_confidence: 5.348911 5.885576
