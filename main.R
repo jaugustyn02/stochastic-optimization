@@ -15,12 +15,9 @@ for (num_dims in num_dims_ls){
   result <- get_means(num_runs, num_points, num_dims, rastrigin_fn, "Rastirgin")
   cat("dimensions:", num_dims, "\n")
   cat("ms_mean:", result$ms_mean, "\n")
-  cat("ms_sd:", result$ms_sd, "\n")
-  cat("ms_confidence:", result$ms_confidence, "\n")
   cat("prs_mean:", result$prs_mean, "\n")
-  cat("prs_sd:", result$prs_sd, "\n")
-  cat("prs_confidence:", result$prs_confidence, "\n")
-  cat("difference:", abs(result$ms_mean - result$prs_mean), "\n\n")
+  cat("difference:", abs(result$ms_mean - result$prs_mean), "\n")
+  cat("confidence:", result$confidence[[1]], result$confidence[[2]], "\n\n")
 }
 
 
@@ -31,10 +28,7 @@ for (num_dims in num_dims_ls){
   result <- get_means(num_runs, num_points, num_dims, schwefel_fn, "Schwefel")
   cat("dimensions:", num_dims, "\n")
   cat("ms_mean:", result$ms_mean, "\n")
-  cat("ms_sd:", result$ms_sd, "\n")
-  cat("ms_confidence:", result$ms_confidence, "\n")
   cat("prs_mean:", result$prs_mean, "\n")
-  cat("prs_sd:", result$prs_sd, "\n")
-  cat("prs_confidence:", result$prs_confidence, "\n")
-  cat("difference:", abs(result$ms_mean - result$prs_mean), "\n\n")
+  cat("difference:", abs(result$ms_mean - result$prs_mean), "\n")
+  cat("confidence:", result$confidence[[1]], result$confidence[[2]], "\n\n")
 }
