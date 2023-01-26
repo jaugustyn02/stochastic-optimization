@@ -13,7 +13,7 @@ runs: 50
 
 points: 100 
 
-**Rastringin funtion:
+**Rastringin funtion:**
 
 
 dimensions: 2:
@@ -65,7 +65,7 @@ prs_mean: 258.4253
 difference: 192.3404
 confidence: 189.1007 195.58
 ```
-**Schwefel funtion:
+**Schwefel funtion:**
 
 dimensions: 2 
 ```
