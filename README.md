@@ -1,4 +1,6 @@
 # Projekt zaliczeniowy - Algorytmy minimalizacji stochastycznej
+### Autorzy: Jan Augustyn, Jakub Kroczek
+
 Projekt polega na prostym opracowaniu statystycznym wyników porównania działania wybranych algorytmów minimalizacji stochastycznej.
 
 Do porównania wybraliśmy poniższe algorytmy:
