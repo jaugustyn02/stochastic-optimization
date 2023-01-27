@@ -14,6 +14,7 @@ oraz następujące funkcję do zminimalizowania:
 &nbsp;
 &nbsp;
 
+### Dla algorytmu MS:
 **runs: 50**
 
 **points: 100**
