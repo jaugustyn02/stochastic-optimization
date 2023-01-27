@@ -8,23 +8,30 @@ Do porównania wybraliśmy poniższe algorytmy:
 - **Metoda wielokrotnego startu (multi-start, MS)**
 
 oraz następujące funkcję do zminimalizowania:
-- Funkcja Rastrigina
-- Funkcja Schwefela
+- **Funkcja Rastrigina**
+- **Funkcja Schwefela**
 
-runs: 50
+&nbsp;
+&nbsp;
 
-points: 100 
+**runs: 50**
 
-**Rastringin funtion:**
+**points: 100**
 
+## Rastringin funtion:
 
-dimensions: 2:
+&nbsp;
+
+![My Image](images/Rastrigin_function2.png)
+
+&nbsp;
+
+### dimensions: 2
 ```
 ms_mean: 0.4178828
 ```
 ![My Image](histograms/Rastirgin_2_ms.png)
 ![My Image](boxplot/Rastirgin_2_ms.png)
-
 ```
 prs_mean: 5.498859
 ```
@@ -35,7 +42,7 @@ difference: 5.080976
 confidence: 4.912705 5.249248
 ```
 
-dimensions: 10 
+### dimensions: 10 
 
 ```
 ms_mean: 23.32179
@@ -51,7 +58,7 @@ prs_mean: 106.9339
 difference: 83.61207
 confidence: 81.92589 85.29825
 ```
-dimensions: 20
+### dimensions: 20
 
 ```
 ms_mean: 66.08496
@@ -67,9 +74,16 @@ prs_mean: 258.4253
 difference: 192.3404
 confidence: 189.1007 195.58
 ```
-**Schwefel funtion:**
 
-dimensions: 2 
+&nbsp;
+## Schwefel funtion:
+&nbsp;
+
+![My Image](images/Schwefel_function2.jpg)
+
+&nbsp;
+
+### dimensions: 2 
 ```
 ms_mean: -837.9658
 ```
@@ -85,7 +99,7 @@ difference: 170.7232
 confidence: 167.2121 174.2343
 ```
 
-dimensions: 10
+### dimensions: 10
 ```
 ms_mean: -3256.301
 ```
@@ -100,7 +114,7 @@ prs_mean: -1526.062
 difference: 1730.239
 confidence: 1678.16 1782.318
 ```
-dimensions: 20 
+### dimensions: 20 
 ```
 ms_mean: -5936.447
 ```
