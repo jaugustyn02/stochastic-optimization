@@ -24,9 +24,10 @@ get_means <- function(num_runs, num_points, num_dims, obj_fn, name_fn){
 
   budget <- fn_calls_count %/% ms_num_runs - num_points
 
-  prs_num_runs = (ms_num_runs * budget) %/% num_points
+  # prs_num_runs = (ms_num_runs * budget) %/% num_points
+  prs_num_runs = num_runs
   
-  prs <- replicate(prs_num_runs, PRS(dimensions, num_points, obj_fn))
+  prs <- replicate(prs_num_runs, PRS(dimensions, budget, obj_fn))
 
   # rysowanie histogramu i boxplota
   # png(file = paste("histograms/", name_fn, "_", num_dims, "_prs", ".png", sep = ""))
@@ -35,7 +36,7 @@ get_means <- function(num_runs, num_points, num_dims, obj_fn, name_fn){
   # png(file = paste("boxplot/", name_fn, "_", num_dims, "_prs", ".png", sep = ""))
   # boxplot(prs, main=paste(name_fn, "_", num_dims, "_prs", sep = ""), col = "yellow",border = "blue")
   # dev.off()
-  
+
   student <- t.test(prs, ms)
   return(list(ms_mean = student$estimate[[2]], prs_mean = student$estimate[[1]], confidence = student$conf.int[c(1,2)]))
 }
